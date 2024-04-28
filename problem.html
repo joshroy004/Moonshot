@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroid Mining - Problem</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .bg-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -100;
+            filter: brightness(30%);
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            background-color: rgba(0,0,0,0.6); /* Dark overlay to ensure text readability */
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="bg-video">
+        <source src="https://unsplash.com/photos/green-sky-during-night-time-1-Mq2LbM1NQ" type="photo/mp3">
+        Your browser does not support HTML5 video.
+    </video>
+    
+    <div class="content">
+        <h1>The Challenge of Asteroid Mining</h1>
+        <p>
+            Asteroid mining presents a crucial opportunity for obtaining resources critical to sustaining and expanding human presence in space. However, the technological and financial barriers are immense. Identifying, reaching, and successfully extracting valuable materials like platinum, water, and rare earth elements from asteroids require groundbreaking advances in space technology and international cooperation.
+        </p>
+        <h2>Why Focus on Asteroids?</h2>
+        <p>
+            With Earth's resources depleting rapidly, asteroids could be the key to not just supplementing our resource base but also ensuring the longevity of our species by opening the path to interplanetary trade and colonization.
+        </p>
+    </div>
+</body>
+</html>
